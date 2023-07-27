@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 1091px/ 2);
+    padding-right: calc(50% - 1091px/ 2);
+}
+
+.top_menu {
+    padding-bottom: 20px;
+    padding-top: 18px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top_logo {
+    margin-right: 41px;
+    margin-left: 1px;
+}
+
+.img_menu {
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+div {
+    display: block;
+}
+
+.header_title {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F1E4E6;
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+    
+}
+
+.red_block {
+    margin-left: 63px;
+    margin-right: 16px;
+}
+
+.title_text {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.title_text2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p span{ 
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #F16D7F;
+}
+
+.right_title {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 290px;
+    padding-bottom: 381px;
+}
+
+.models_img {
+    padding-top: 65px;
+    padding-bottom: 96px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2;
+}
+
+.model_big_img {
+    position: relative;
+    grid-column: 1 / 4;
+    grid-row: 2;
+    min-height: 180px;
+    
+}
+
+.model_text {
+    color: #FFF;
+    text-align: center;
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.model_head {
+    color: #F16D7F;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.model1 {
+    position: relative;
+}
+
+.in_model_block {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    align-content: center;
+    flex-wrap: nowrap;    
+}
+
